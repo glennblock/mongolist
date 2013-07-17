@@ -10,7 +10,7 @@ var express = require('express')
   , path = require('path');
 
 var TaskList = require('./routes/tasklist');
-var taskList = new TaskList('');
+var taskList = new TaskList('mongodb://MongoLab-4d:69x19MZqLg3QNWpkWF_9nqvVVvS044FwLScqo8A0Zb0-@ds027748.mongolab.com:27748/MongoLab-4d');
 
 var app = express();
 
